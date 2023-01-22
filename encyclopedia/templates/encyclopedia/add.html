@@ -1,0 +1,25 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Add entry
+{% endblock %}
+
+{% block body %}
+
+<div class="add-edit">
+    <h1>Add entry</h1>
+    <form action="/add/" method="POST">
+        {% csrf_token %}
+        <label for="add_title">Article title</label>
+        <div>
+            <input class="add-input" type="text" name="add_title" id="add_title" placeholder="Enter article title">
+        </div>
+        <label for="content">Article content</label>
+        <div>
+            <textarea name="content" id="content" placeholder="Enter markdown content here"></textarea> 
+        </div>
+        <button type="submit">Add entry</button>
+    </form>
+</div>
+
+{% endblock %}

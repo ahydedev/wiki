@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+code {
+    white-space: pre;
+}
+
+.wiki {
+    font-family: 'Sorts Mill Goudy', serif;
+    color: black;
+    font-size: 60px;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+textarea {
+    height: 60vh;
+    width: 90%;
+}
+
+.main {
+    padding: 20px 20px 20px 40px;
+}
+
+.title-box {
+    background-color: #cedff2;
+    border: solid 1px #a3b0bf;
+    border-radius: 2px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 10px;
+}
+
+.content-box {
+    background: #f5faff;
+    border: solid 1px #cedff2;
+    border-radius: 2px;
+    padding: 30px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.article {
+    background: #f5fffa;
+    border: solid 1px #cef2e0;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.article > h1:first-of-type {
+    border: solid 1px #a3bfb1;
+    background-color: #cfebdd;
+    padding: 3px 10px;
+    margin-bottom: 30px;
+}
+
+.edit-button {
+    padding: 15px 15px;
+}
+
+.add-edit {
+    border: solid 1px #cce1d6;
+    background-color: #e7f3ed;
+    border-radius: 2px;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.add-edit > h1:first-of-type {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.add-edit input {
+    width: 90%;
+}
+
+.add-edit div {
+    margin-bottom: 25px;
+}
+
+.search {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 30px;
+}
+
+.sidebar > * {
+    margin-left: 10px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+.sidebar form {
+    margin-bottom: 20px;
+}
+
+.apology {
+    background: rgb(252, 250, 250);
+    border: solid 1px lightgrey;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 10px;
+}
